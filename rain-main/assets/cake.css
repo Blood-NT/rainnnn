@@ -1,0 +1,80 @@
+
+body {
+    background: linear-gradient(#00144b, #000000);
+    margin: 0;
+    height: 100vh;
+}
+.thong{
+  margin-top:  55%;
+  margin-left: 35%;
+  padding-bottom: 200px;
+  position: fixed;
+
+
+}
+
+@keyframes anim {
+    to {
+        background-position-y: 120px;
+    }
+}
+
+.tree {
+    /* position: absolute; */
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 200px;
+    height: 200px;
+    width: 150px;
+    background: linear-gradient(to top, #533106, #04802d, #098633, #2fd35d, hsl(133, 98%, 67%));
+    clip-path: polygon(
+        50% 0,
+        70% 15%,
+        55% 10%,
+
+        85% 40%,
+        60% 25%,
+        90% 60%,
+
+        65% 45%,
+        100% 87%,
+        57% 80%,
+
+        57% 100%,
+        43% 100%,
+        43% 80%,
+
+        0 87%,
+        35% 45%,
+        10% 60%,
+
+        40% 25%,
+        15% 40%,
+        
+        45% 10%,
+        30% 15%
+    );
+
+    transform: rotateY(calc(21deg * var(--j)));
+}
+
+.g {
+    /* position: fixed; */
+    bottom: 0;
+    background: linear-gradient(#fde2b0, #fff);
+    height: 100px;
+    width: 100vw;
+}
+
+
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: #ffff00;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    
+}
+
