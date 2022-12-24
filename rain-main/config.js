@@ -14,6 +14,11 @@ var config = {
         "anh có cảm giác...",
         "em buồn, em cọc, em quạo",
         "em có vẻ không vui khi nhắn tin với a, bắt đầu lạnh nhạt hơn với anh",
+        "Em có thể làm bất cứ điều gì",
+        "Nhưng....",
+        "Hãy làm những điều mà khiến em vui hơn.",
+        "Nếu có chuyện gì, hay cảm thấy buồn",
+        "Phải nói với Sơn.... Nghe hông",
         " from your boyfriend~~~ nolan (ㆁωㆁ) ",
         "loveyouuuu"
     ],
